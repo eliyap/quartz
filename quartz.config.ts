@@ -8,11 +8,11 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
-    enableSPA: true,
+    pageTitle: "Elijah Studies Design",
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+    //   provider: "plausible", // No analytics, thanks!
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
